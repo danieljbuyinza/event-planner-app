@@ -2,3 +2,15 @@
     background-color: rgb(243, 188, 197) !important;
 
 }
+.parent{
+    background-color: red;
+    height: 600px;
+}
+.left{
+background-color: rgb(252, 232, 232);
+height: 500px;
+}
+
+.right{
+
+}
