@@ -4,13 +4,13 @@
 }
 .parent{
     background-color: red;
-    height: 600px;
+   
 }
 .left{
-background-color: rgb(252, 232, 232);
-height: 500px;
+    background-color: rgb(252, 232, 232);
+    height: 600px;
 }
 
 .right{
-
+    height: 600px;
 }
