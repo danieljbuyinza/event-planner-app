@@ -2,15 +2,23 @@
     background-color: rgb(243, 188, 197) !important;
 
 }
-.parent{
-    background-color: red;
-    height: 600px;
-}
-.left{
+
+.left, .cat{
 background-color: rgb(252, 232, 232);
-height: 500px;
+height: auto;
+box-shadow: 1px 1px 1px rgb(199, 198, 198);
 }
 
-.right{
 
+.cat{   
+    flex-direction: column;
+    
+} 
+
+li{
+    list-style: none;
+}
+
+.separate{
+    padding-left: 15px;
 }
