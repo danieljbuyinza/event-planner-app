@@ -22,3 +22,6 @@ li{
 .separate{
     padding-left: 15px;
 }
+ li a{
+     color: black;
+ }
