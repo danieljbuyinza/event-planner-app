@@ -1,0 +1,28 @@
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+h1 {
+    font-weight: 900;
+}
+
+.vendors {
+    background-color: silver;
+    /* background-image: url("images/Happy bride.jpg"); */
+    background-blend-mode: overlay;
+    background-position: bottom;
+    background-size: cover;
+    border-radius: 10px;
+    font-weight: 900;
+    padding: 15px 20px 80px 20px;
+}
+
+.vendors:hover {
+    background-blend-mode: normal;
+    color: aliceblue;
+}
