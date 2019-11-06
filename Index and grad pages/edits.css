@@ -1,0 +1,117 @@
+#pics {
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.picBox {
+   
+    width: 19vw;
+    height: 19vw;
+    border-radius: 50%;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:#fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:bold;
+}
+#wed{
+    background-image:url("./Images/Wedding.jpg");
+    
+}
+#birthday{
+    background-image:url("./Images/birthday.jpg");
+    color: #fff;
+}
+
+#grad { 
+    background-image:url("./Images/gradParty.jpg");
+    width: 19vw;
+    height: 13vw;
+    border-radius: 25%; 
+} 
+
+.calendar{
+    padding-top:30px !important;
+    padding-left:60px !important;
+   
+}
+
+.c-title{
+    display: flex;
+    height: 55px;
+    width:211px;
+    margin-left: 150px;
+    background-color: #d4a59a;
+    color:#fff;
+    padding:15px;
+    align-items: center;
+    font-size:25px;
+    border-radius: 0.25rem;
+
+}
+
+td,th{
+    padding: 5px 10px;
+    font-size:20px;
+}
+
+#gradpg {
+    width: 15vw;
+    height: 15vw;
+    border-radius: 25px;
+    background-image:url("./Images/grad.jpg");
+    
+}
+.list-group {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    width:200px;
+    
+}
+footer{
+    background: #818181;
+    color: #fff;
+    /* position: fixed;
+    bottom: 0; */
+    padding: 2px;
+    width: 100%;    
+}
+@media(max-width:900px){
+#pics{
+    flex-direction: column;
+    height:unset;
+}
+.picBox{
+    width: 100%;
+    height:50vw;
+    border-radius: 0;
+    margin-bottom: 5px;
+}
+}
+#corner a{
+    background-color: #d4a59a;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:bold;
+    color: white;
+}
+h1,h2 {
+    color: #819191
+}
+.foot{
+    color: #fff;
+}
+#time{
+    padding-top: 40px;
+    margin-left:10px; 
+}
+table{
+    padding-top: 100px;
+    margin-top:10px !important;
+}
+.row{
+    margin-top: 0px;
+}

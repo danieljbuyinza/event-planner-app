@@ -12,9 +12,10 @@ h1 {
 }
 
 .vendors {
-    background-color: aliceblue;
-    background-image: url("images/Happy bride.jpg");
+    background-color: silver;
+    /* background-image: url("images/Happy bride.jpg"); */
     background-blend-mode: overlay;
+    background-position: bottom;
     background-size: cover;
     border-radius: 10px;
     font-weight: 900;
